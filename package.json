@@ -1,0 +1,31 @@
+{
+  "name": "node-test-client",
+  "version": "1.0.0",
+  "description": "Реализовать на NodeJS сервис, который для заданного юзером сайта выводит список подключенных js- и css-файлов.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV='production' webpack",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lolypopprogrammer/node-test-client.git"
+  },
+  "author": "Lomakin Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lolypopprogrammer/node-test-client/issues"
+  },
+  "homepage": "https://github.com/lolypopprogrammer/node-test-client#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.25.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
